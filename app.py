@@ -2,8 +2,8 @@ def is_prime(n):
     if n <= 1:
         return False
     for i in range(2, int(n**0.5) + 1):
-        if n % i == 0
-                            print(f"Divisor found: {i}"):
+        if n % i == 0:
+            print(f"Not a prime number, divisible by {i}")
             return False
     return True
 
